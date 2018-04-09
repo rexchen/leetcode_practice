@@ -6,10 +6,10 @@
 # Try to come up as many solutions as you can, there are at least 3 different ways to solve this problem.
 
 def rotate(nums, k)
-	for i in 0...k
-		nums.insert(0,nums.last)
-		nums.pop
-	end
+  for i in 0...k
+    nums.insert(0,nums.last)
+    nums.pop
+  end
 end
 
 rotate([1,2,3,4,2],2)
